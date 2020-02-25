@@ -672,3 +672,13 @@ java.lang.NullPointerException
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2020-02-25 20:48:55.412 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-25 21:12:21.745
+!MESSAGE Indexed '25_02_2020_Test_GitHub' (0 sources, 9 headers) in 0,89 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
