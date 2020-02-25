@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: 24.02.2020
+ *      Author: Alina Angelo
+ */
+
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+
+	char name[20];
+	//gets(name);
+	//puts (name);
+	char string[100]="This is a string";
+	printf("%s\n", string);
+	char* string2 = "This is also string";
+	printf("%s\n", string2);
+	string[5] = 'X';
+	printf("%s\n", string);
+
+	return 0;
+}
+

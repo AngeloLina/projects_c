@@ -1,0 +1,31 @@
+/*
+ * main.c
+ *
+ *  Created on: 16.02.2020
+ *      Author: Alina Angelo
+ */
+
+#include<stdio.h>
+void triangle(int linesNumber);
+int main(){
+
+	triangle(6);
+
+	return 0;
+}
+
+void triangle(int linesNumber){
+	printf("Please enter the number of lines: ");
+	fflush stdout;
+	scanf("%d\n", &linesNumber);
+	int i,j;
+	for(i=0; i<linesNumber; i++){
+		for(j=1; j<linesNumber-i; j++)
+			printf(" ");
+		}
+		for(j=linesNumber-i*2; j<=linesNumber; j++){
+			printf("*");
+		}
+	}
+
+

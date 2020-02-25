@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: 23.02.2020
+ *      Author: Alina Angelo
+ */
+
+#include<stdio.h>
+void reverseArrays(int a[]);
+int main(){
+	int a[]={1,2,3,4,5,6,7};
+	reverseArrays(a);
+	return 0;
+}
+
+void reverseArrays(int a[]){
+	int size= (int)((float)sizeof(a)/(float)sizeof(int));
+	printf("%d\n", size);
+	//int b[size]
+	int i;
+	for(i=0; i<size; i++){
+		//b[size-i]=a[i]
+		printf("%d",a[i]);
+	}
+}

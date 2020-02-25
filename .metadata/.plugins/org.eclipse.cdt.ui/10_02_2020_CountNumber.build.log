@@ -1,0 +1,10 @@
+
+**** Build of configuration Debug for project 10_02_2020_CountNumber ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -omain.o ..\main.c
+..\main.c: In function 'countNumber3':
+..\main.c:48: error: expected ')' before 'res'
+..\main.c:48: warning: too few arguments for format
+Build error occurred, build is stopped
+Time consumed: 308  ms.  

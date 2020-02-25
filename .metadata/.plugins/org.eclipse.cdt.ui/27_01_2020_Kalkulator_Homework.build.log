@@ -1,0 +1,13 @@
+
+**** Build of configuration Debug for project 27_01_2020_Kalkulator_Homework ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -omain.o ..\main.c
+..\main.c: In function 'calc':
+..\main.c:45: error: 'op' undeclared (first use in this function)
+..\main.c:45: error: (Each undeclared identifier is reported only once
+..\main.c:45: error: for each function it appears in.)
+..\main.c:46: error: expected ':' or '...' before ';' token
+..\main.c:58: error: 'res' undeclared (first use in this function)
+Build error occurred, build is stopped
+Time consumed: 323  ms.  

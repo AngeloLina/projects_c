@@ -1,0 +1,674 @@
+!SESSION 2020-01-22 19:02:48.608 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-22 19:09:42.751
+!MESSAGE Indexed '22_01_2020_Homework' (0 sources, 9 headers) in 1,46 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-22 20:18:01.569
+!MESSAGE Indexed 'Klass2' (0 sources, 9 headers) in 0,16 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-01-22 20:52:07.097
+!MESSAGE An internal error occurred during: "Launching Klass2.exe".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:819)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:806)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:801)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1389)
+	at org.eclipse.cdt.ui.newui.CDTPropertyManager.performOkForced(CDTPropertyManager.java:141)
+	at org.eclipse.cdt.ui.newui.CDTPropertyManager.performOk(CDTPropertyManager.java:106)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.setBuildConfiguration(AbstractCLaunchDelegate.java:639)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:612)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.buildForLaunch(LocalCDILaunchDelegate.java:483)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:821)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-22 21:09:41.196
+!MESSAGE Indexed '22_01_2020_Math_Example' (0 sources, 9 headers) in 0,23 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-01-26 17:20:02.761 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-26 17:27:12.158
+!MESSAGE Indexed '26_01_2020' (0 sources, 9 headers) in 0,52 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-01-26 17:54:50.875
+!MESSAGE An internal error occurred during: "Launching 26_01_2020.exe".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:819)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:806)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:801)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1389)
+	at org.eclipse.cdt.ui.newui.CDTPropertyManager.performOkForced(CDTPropertyManager.java:141)
+	at org.eclipse.cdt.ui.newui.CDTPropertyManager.performOk(CDTPropertyManager.java:106)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.setBuildConfiguration(AbstractCLaunchDelegate.java:639)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:612)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.buildForLaunch(LocalCDILaunchDelegate.java:483)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:821)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2020-01-26 17:56:10.335 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-01-26 17:58:31.350
+!MESSAGE An internal error occurred during: "Launching 26_01_2020.exe".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.resetBuildConfiguration(AbstractCLaunchDelegate.java:736)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.finalLaunchCheck(AbstractCLaunchDelegate.java:726)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:834)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 125 2020-01-26 18:02:27.357
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-26 21:13:09.145
+!MESSAGE Indexed '26_01_2020_Test' (0 sources, 9 headers) in 0,61 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-01-27 18:12:05.847 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-27 19:04:32.602
+!MESSAGE Indexed '27_01_2020_Input' (0 sources, 9 headers) in 0,68 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-27 19:18:32.887
+!MESSAGE Indexed '27_01_2020_test' (0 sources, 9 headers) in 0,23 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-27 19:42:23.161
+!MESSAGE Indexed '27_01_2020_Conditions' (0 sources, 9 headers) in 0,22 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-27 20:01:35.763
+!MESSAGE Indexed '27_01_2020_Calculator' (0 sources, 9 headers) in 0,21 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-27 20:44:48.951
+!MESSAGE Indexed '27_01_2020_Kalculator' (0 sources, 9 headers) in 0,20 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-01-27 21:01:14.331 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-27 21:08:27.799
+!MESSAGE Indexed '27_01_2020_Greeting_user' (0 sources, 9 headers) in 0,56 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-27 21:25:20.499
+!MESSAGE Indexed '27_01_2020_Switch' (0 sources, 9 headers) in 0,22 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-27 22:30:37.452
+!MESSAGE Indexed '27_01_2020_Kalkulator_Homework' (0 sources, 9 headers) in 0,18 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-01-29 18:10:53.100 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-29 19:08:42.048
+!MESSAGE Indexed '29_01_2020_Switch_Operator' (0 sources, 9 headers) in 0,67 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-29 19:36:29.515
+!MESSAGE Indexed '29_01_2020_Calculator' (0 sources, 9 headers) in 0,20 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-29 20:40:11.510
+!MESSAGE Indexed '29_01_2020_Call_Function' (0 sources, 9 headers) in 0,21 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-29 21:07:51.836
+!MESSAGE Indexed '29_01-2020_LargestNumber' (0 sources, 9 headers) in 0,20 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-02 12:48:07.473 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-02 12:49:37.612
+!MESSAGE Indexed '02_02_2020_twoFunctions' (0 sources, 9 headers) in 0,66 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-02 16:16:33.569
+!MESSAGE Indexed '02_02_2020Task2' (0 sources, 9 headers) in 0,28 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-02 17:20:39.168 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-02 20:16:14.213
+!MESSAGE Indexed '02_02_2020_Task3' (0 sources, 9 headers) in 0,64 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-03 18:57:18.780 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-03 19:01:40.294
+!MESSAGE Indexed '03_02_2020_Homework_02_02_2020' (0 sources, 9 headers) in 1,28 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-03 19:42:14.305
+!MESSAGE Indexed '03_02_2020_Autobahn' (0 sources, 9 headers) in 0,23 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-05 18:55:34.474 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-05 19:02:01.156
+!MESSAGE Indexed '05_02_2020_Loops' (0 sources, 9 headers) in 0,51 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-05 19:39:31.853
+!MESSAGE Indexed '05_02_2020_Simple_Number' (0 sources, 9 headers) in 0,25 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-05 20:21:34.697 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-05 20:28:23.727
+!MESSAGE Indexed '05_02_2020_LoopPraktik' (0 sources, 9 headers) in 0,47 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-05 20:57:22.732
+!MESSAGE Indexed '05_02_2020_Go' (0 sources, 9 headers) in 0,20 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-05 21:19:25.987
+!MESSAGE Indexed '05_02_2020_SumDigits' (0 sources, 9 headers) in 0,21 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-09 17:10:08.933 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-09 17:11:29.187
+!MESSAGE Indexed '09_02_2020_Homework' (0 sources, 9 headers) in 0,74 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-09 21:24:09.514
+!MESSAGE Indexed '09_02_2020_Coffee_Machine' (0 sources, 9 headers) in 0,59 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.debug.core 4 125 2020-02-10 11:41:01.158
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-10 13:24:38.906
+!MESSAGE Indexed '09_02_2020_Homework_2' (0 sources, 9 headers) in 0,24 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-10 17:15:23.988 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-02-10 17:16:02.342
+!MESSAGE An internal error occurred during: "Launching 09_02_2020_Homework_2.exe".
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.AbstractList$Itr.checkForComodification(Unknown Source)
+	at java.util.AbstractList$Itr.next(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager.getBuilderInfo(BuildManager.java:508)
+	at org.eclipse.core.internal.events.BuildManager.initializeBuilder(BuildManager.java:749)
+	at org.eclipse.core.internal.events.BuildManager.getBuilder(BuildManager.java:482)
+	at org.eclipse.core.internal.events.BuildManager.getRule(BuildManager.java:999)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:539)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:524)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:115)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:613)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.buildForLaunch(LocalCDILaunchDelegate.java:483)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:821)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2020-02-10 19:53:37.165 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-10 20:02:42.222
+!MESSAGE Indexed '10_02_2020_CountNumber' (0 sources, 9 headers) in 0,51 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-10 20:54:25.104
+!MESSAGE Indexed '10_02_2020_PrintHello' (0 sources, 9 headers) in 0,21 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-10 21:22:26.668
+!MESSAGE Indexed '10_02_2020_PrintStar' (0 sources, 9 headers) in 0,20 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-14 20:49:08.187
+!MESSAGE Indexed 'test' (0 sources, 9 headers) in 0,27 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-16 17:30:09.736 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-16 17:31:50.422
+!MESSAGE Indexed '16_02_2020_Stars_in_the_Row' (0 sources, 9 headers) in 0,50 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-16 18:30:59.775
+!MESSAGE Indexed '16_02_2020_EvenNumber_loop_for' (0 sources, 9 headers) in 0,34 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-16 18:47:32.919
+!MESSAGE Indexed '16_02_2020_Triangle' (0 sources, 9 headers) in 0,23 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-17 19:07:21.202
+!MESSAGE Indexed '17_02_2020_InputArray' (0 sources, 9 headers) in 0,42 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-17 20:21:26.928
+!MESSAGE Indexed '17_02_2020_Pifagor' (0 sources, 9 headers) in 0,22 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-17 21:17:32.625
+!MESSAGE Indexed '17_02_2020_ArrayChars' (0 sources, 9 headers) in 0,25 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-23 13:45:45.240 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-23 13:49:59.900
+!MESSAGE Indexed '23_02_2020_ReverseArray' (0 sources, 9 headers) in 0,40 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-23 15:37:38.792
+!MESSAGE Indexed '23_02_2020_Bubble_Array' (0 sources, 9 headers) in 0,42 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-02-23 16:24:25.164
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@1152709): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2020-02-23 16:24:25.164
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:824)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:662)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-02-23 16:24:26.321
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@a1c384): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2020-02-23 16:24:26.321
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:824)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:662)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-02-23 16:24:29.056
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@6501e4): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2020-02-23 16:24:29.056
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:824)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:662)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-02-23 16:24:31.224
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@11dd4b6): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2020-02-23 16:24:31.224
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:824)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:662)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-02-23 16:24:31.460
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@19e0d74): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2020-02-23 16:24:31.460
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:824)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:662)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-02-23 16:24:31.625
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@f96dc3): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2020-02-23 16:24:31.626
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:824)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:662)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-02-23 16:24:31.774
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@86510a): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2020-02-23 16:24:31.774
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:824)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:662)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-02-23 16:24:40.642
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@7a25ee): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2020-02-23 16:24:40.642
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:824)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:662)
+
+!ENTRY org.eclipse.ui 4 4 2020-02-23 16:38:57.871
+!MESSAGE An internal error has occurred.
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.SWT.error(SWT.java:3969)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:3401)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:256)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:344)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2480)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2903)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1429)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1383)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1485)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at org.eclipse.cdt.debug.internal.ui.views.executables.ExecutablesViewer$4.runInUIThread(ExecutablesViewer.java:230)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2629)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2593)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2427)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:670)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:663)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-23 17:25:59.483
+!MESSAGE Indexed '23_02_2020_Task2' (0 sources, 9 headers) in 0,08 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-23 20:22:49.172
+!MESSAGE Project: 23_02_2020_Task2 is closed or inaccessible!
+
+!ENTRY org.eclipse.cdt.ui 4 4 2020-02-23 20:22:49.320
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project: 23_02_2020_Task2 is closed or inaccessible!
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:22)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionStorage(CProjectDescriptionManager.java:858)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getStorageForElement(CProjectDescriptionManager.java:873)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationSpecSettings.getStorageBase(CConfigurationSpecSettings.java:299)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationSpecSettings.getStorage(CConfigurationSpecSettings.java:271)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescription.getStorage(CConfigurationDescription.java:334)
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptor.getProjectStorageElement(CConfigBasedDescriptor.java:437)
+	at org.eclipse.cdt.internal.ui.text.doctools.ProjectMap.load(ProjectMap.java:118)
+	at org.eclipse.cdt.internal.ui.text.doctools.ProjectMap.<init>(ProjectMap.java:58)
+	at org.eclipse.cdt.internal.ui.text.doctools.DocCommentOwnerManager.getProjectMap(DocCommentOwnerManager.java:218)
+	at org.eclipse.cdt.internal.ui.text.doctools.DocCommentOwnerManager.getCommentOwner(DocCommentOwnerManager.java:135)
+	at org.eclipse.cdt.internal.ui.text.CTextTools.getDocumentationCommentOwner(CTextTools.java:157)
+	at org.eclipse.cdt.internal.ui.text.CTextTools.setupCDocument(CTextTools.java:118)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentSetupParticipant.setup(CDocumentSetupParticipant.java:48)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBufferManager$1.run(ResourceTextFileBufferManager.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBufferManager.createEmptyDocument(ResourceTextFileBufferManager.java:166)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.initializeFileBufferContent(ResourceTextFileBuffer.java:285)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:245)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:112)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:559)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:856)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:778)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1363)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.setInputWithNotify(AbstractTextEditor.java:4114)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.setInput(AbstractTextEditor.java:4136)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$7.run(AbstractTextEditor.java:527)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$ElementStateListener.execute(AbstractTextEditor.java:596)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$ElementStateListener.elementMoved(AbstractTextEditor.java:557)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$FileBufferListener.underlyingFileMoved(TextFileDocumentProvider.java:322)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager$6.run(TextFileBufferManager.java:742)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.fireUnderlyingFileMoved(TextFileBufferManager.java:740)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.handleFileMoved(ResourceFileBuffer.java:463)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer$3.execute(ResourceFileBuffer.java:162)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer$SafeFileChange.run(ResourceFileBuffer.java:86)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:330)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:573)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:153)
+	at org.eclipse.ltk.ui.refactoring.resource.RenameResourceWizard$RenameResourceRefactoringConfigurationPage.performFinish(RenameResourceWizard.java:117)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:646)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:454)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:180)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:192)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:115)
+	at org.eclipse.ltk.internal.ui.refactoring.actions.RenameResourceHandler.execute(RenameResourceHandler.java:39)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:293)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommandInContext(HandlerService.java:270)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.runCommand(LTKLauncher.java:95)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.openRenameWizard(LTKLauncher.java:73)
+	at org.eclipse.ui.actions.RenameResourceAction.run(RenameResourceAction.java:461)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:168)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2629)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2593)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2427)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:670)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:663)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2020-02-23 20:22:49.332
+!MESSAGE Project: 23_02_2020_Task2 is closed or inaccessible!
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-23 20:22:53.164
+!MESSAGE Indexed '23_02_2020_missingNumber' (0 sources, 9 headers) in 0,20 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-24 17:51:36.976 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-24 19:43:11.420
+!MESSAGE Indexed '24_02_2020_binarySearch' (0 sources, 9 headers) in 0,50 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-24 20:01:10.143 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-24 20:24:46.990
+!MESSAGE Indexed '24_02_2020_GuessNumber' (0 sources, 9 headers) in 0,50 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-24 20:49:10.661 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-24 20:51:39.665
+!MESSAGE Indexed '24_02_2020_String' (0 sources, 9 headers) in 0,66 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-02-24 21:17:43.318 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-02-24 21:25:47.492
+!MESSAGE An internal error occurred during: "Launching 24_02_2020_String.exe".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:819)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:806)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:801)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1389)
+	at org.eclipse.cdt.ui.newui.CDTPropertyManager.performOkForced(CDTPropertyManager.java:141)
+	at org.eclipse.cdt.ui.newui.CDTPropertyManager.performOk(CDTPropertyManager.java:106)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.setBuildConfiguration(AbstractCLaunchDelegate.java:639)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:612)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.buildForLaunch(LocalCDILaunchDelegate.java:483)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:821)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

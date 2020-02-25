@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project 22_01_2020_Homework ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -ohw.o ..\hw.c
+gcc -o22_01_2020_Homework.exe hw.o
+Build complete for project 22_01_2020_Homework
+Time consumed: 636  ms.  

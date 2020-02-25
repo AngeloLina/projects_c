@@ -1,0 +1,7 @@
+
+**** Build of configuration Debug for project 02_02_2020_twoFunctions ****
+
+**** Internal Builder is used for build               ****
+gcc -o02_02_2020_twoFunctions.exe main.o
+Build complete for project 02_02_2020_twoFunctions
+Time consumed: 720  ms.  

@@ -1,0 +1,24 @@
+/*Написать функцию, которая создаст новый массив из "перевернутых" элементов массива, полученного на вход.
+ *Т.е. из массива {5, 3, 2, 1} получится новый {1, 2, 3, 5}
+ *
+ *
+ * main.c
+ *
+ *  Created on: 23.02.2020
+ *      Author: Alina Angelo
+ */
+
+#include<stdio.h>
+void reverseArrays(int a[], int size);
+int main(){
+	int a[]={1,2,3};
+	reverseArrays(a, 2);
+	return 0;
+}
+
+void reverseArrays(int a[], int size){
+	int i;
+	for(i=0; i<=size; i++){
+		printf("%d ",a[size-i]);
+	}
+}

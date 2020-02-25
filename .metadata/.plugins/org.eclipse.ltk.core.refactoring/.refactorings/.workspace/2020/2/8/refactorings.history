@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;23_02_2020_Task2&apos; to &apos;23_02_2020_missingNumber&apos;" description="Rename resource &apos;23_02_2020_Task2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/23_02_2020_Task2" name="23_02_2020_missingNumber" stamp="1582485768514" updateReferences="true"/>
+</session>

@@ -1,0 +1,18 @@
+/*
+ * main.c
+ *
+ *  Created on: 24.02.2020
+ *      Author: Alina Angelo
+ */
+
+#include<stdout.h>
+#include<string.h>
+
+int main(){
+
+	char name[20];
+	gets(name);
+	puts (name);
+	return 0;
+}
+
